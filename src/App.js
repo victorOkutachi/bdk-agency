@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+
+import Homepage from './Pages/Homepage';
+import Services from './Pages/Services';
+import EgyptVisaGrid from './components/EgyptVisaGrid';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import Others from './components/Others';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='w-full h-full font-Lato flex flex-col bg-gray-100'>
+      <Navbar/>
+      <Homepage/>
+      <EgyptVisaGrid/>
+      <Others/>
+      <Services/>
+      <Footer/>
+      
     </div>
   );
 }
