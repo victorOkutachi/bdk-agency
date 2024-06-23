@@ -14,7 +14,7 @@ const Homepage = () => {
     >
       {/* Overlay with semi-transparent background */}
       <div className="  h-[750px] flex flex-col items-center justify-center bg-overlay">
-        <h1 className="text-4xl md:text-5xl font-bold text-white text-center">
+        <h1 className="text-3xl md:text-5xl font-bold text-white text-center">
           BLESSED DON-KATE 
         </h1>
         <p className="text-lg md:text-2xl font-bold pt-5 text-white text-center">
