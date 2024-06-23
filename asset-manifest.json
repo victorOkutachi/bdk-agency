@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bdk-agency/static/css/main.a2f4916c.css",
+    "main.js": "/bdk-agency/static/js/main.d7e7bf0f.js",
+    "index.html": "/bdk-agency/index.html",
+    "main.a2f4916c.css.map": "/bdk-agency/static/css/main.a2f4916c.css.map",
+    "main.d7e7bf0f.js.map": "/bdk-agency/static/js/main.d7e7bf0f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2f4916c.css",
+    "static/js/main.d7e7bf0f.js"
+  ]
+}
