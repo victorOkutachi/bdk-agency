@@ -14,7 +14,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" className="py-12 bg-gray-100">
+    <section className="py-12 bg-gray-100">
       <div className="container mx-auto px-4">
         <h2 className="text-2xl pb-6 font-bold text-center text-[#008024]">Study Visa</h2>
         <p className=' font-normal text-center'>Admission is ongoing for january 2025 intake to the following countries: Poland, Malta, United Kingdom, USA, Canada. </p>

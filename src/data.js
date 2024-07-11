@@ -3,19 +3,19 @@ export const listItems = [
     {
         id: 1,
         desc: "Home",
-        path: '/home'
+        path: 'home'
     },
 
     {
         id: 2,
         desc: "Services",
-        path: '/services'
+        path: 'services'
     },
 
     {
         id: 3,
         desc: "Contact Us",
-        path: '/contact'
+        path: 'contact'
     },
 
    

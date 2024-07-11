@@ -2,11 +2,26 @@ import React from 'react';
 
 const EgyptVisaGrid = () => {
   return (
-    <section className="py-12 bg-gray-100">
+    <section id="services" className="py-12 bg-gray-100">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-8 text-[#ff822e]">Services</h2>
-        <h2 className="text-2xl pb-6 font-bold text-center text-[#008024]">Egyptian Visa Services</h2>
-        <p className="my-8 mx-auto text-center px-4 lg:px-8 text-lg">We provide comprehensive services for obtaining various types of visas to Egypt. </p>
+
+
+        <h2 className="text-3xl font-bold text-center mb-8 text-[#008024]">Services</h2>
+        <p className="my-8 mx-auto text-center px-4 lg:px-8 text-lg">Our Services include but are not limited to the following:</p>
+
+
+        <h2 className="text-2xl pb-10 font-medium text-center text-[#008024]">Egyptian Visa Services</h2>
+
+        <h2 className="text-xl pb-4 font-bold text-center text-gray-600"> Visa On Arrival Services. </h2>
+        <p className="my-2 mx-auto text-center px-4 lg:px-8 ">For UK and USA visa holders. If your visa has been validated, you can get a visa on arival at the Egyptian point of entry for $25.</p>
+        <p className="my-8 mx-auto text-center px-4 lg:px-8 ">Those who do not have UK and USA visa can click the link below for further instructions on how to get to Egypt</p>
+        <button className="text-[#ff822e] font-bold hover:text-white border-2 border-[#ff822e] hover:bg-[#ff822e] hover:border-white px-6 py-2 mt-16 mx-auto flex items-center">
+        Contact Us Now
+        </button>
+
+
+
+        <p className="my-10 mx-auto text-center px-4 lg:px-8 text-lg">We also provide comprehensive services for obtaining various types of visas to Egypt. </p>
         <div className="grid grid-cols-1 lg:grid-cols-6 gap-4">
           <div className="col-span-1 lg:col-span-4 relative bg-white hover:cursor-pointer rounded shadow-md" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/business.jpg)`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
             <div className="absolute inset-0 bg-black bg-opacity-50 rounded"></div>

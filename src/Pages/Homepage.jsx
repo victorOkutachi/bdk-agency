@@ -2,7 +2,7 @@ import React from 'react';
 
 const Homepage = () => {
   return (
-    <div
+    <div id='home'
       style={{
         backgroundImage: `url(${process.env.PUBLIC_URL}/images/island.jpg)`,
         backgroundSize: 'cover',
