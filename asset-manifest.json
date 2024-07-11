@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/bdk-agency/static/css/main.fc644163.css",
-    "main.js": "/bdk-agency/static/js/main.7a7df241.js",
+    "main.css": "/bdk-agency/static/css/main.16239ca5.css",
+    "main.js": "/bdk-agency/static/js/main.d1033b8a.js",
     "index.html": "/bdk-agency/index.html",
-    "main.fc644163.css.map": "/bdk-agency/static/css/main.fc644163.css.map",
-    "main.7a7df241.js.map": "/bdk-agency/static/js/main.7a7df241.js.map"
+    "main.16239ca5.css.map": "/bdk-agency/static/css/main.16239ca5.css.map",
+    "main.d1033b8a.js.map": "/bdk-agency/static/js/main.d1033b8a.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc644163.css",
-    "static/js/main.7a7df241.js"
+    "static/css/main.16239ca5.css",
+    "static/js/main.d1033b8a.js"
   ]
 }
