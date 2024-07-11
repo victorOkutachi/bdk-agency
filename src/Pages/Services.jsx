@@ -13,6 +13,20 @@ const services = [
 ];
 
 const Services = () => {
+
+  const handleWhatsAppClick = (withMessage) => {
+    const phoneNumber = '+2348124759744';
+    let whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}`;
+    
+    if (withMessage) {
+      const message = encodeURIComponent("I'm interested in Egyptian visa services. Can you provide more information?");
+      whatsappUrl += `&text=${message}`;
+    }
+    
+    window.open(whatsappUrl, '_blank');
+  };
+
+  
   return (
     <section className="py-12 bg-gray-100">
       <div className="container mx-auto px-4">
@@ -21,7 +35,7 @@ const Services = () => {
         <p className=' font-normal text-center'>Our packages cover </p>
         <div className="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((service, index) => (
-            <div key={index} className="bg-white p-6 rounded shadow-md items-center hover:cursor-pointer justify-center hover:bg-[#ff822e] hover:text-white ">
+            <div key={index} className="bg-white p-6 rounded shadow-md items-center hover:cursor-pointer justify-center hover:bg-[#ff822e] hover:text-white " onClick={() => handleWhatsAppClick(false)}>
               <p className=" ">{service}</p>
             </div>
           ))}
