@@ -60,7 +60,7 @@ const Navbar = () => {
           </li>
           <li className='py-2 text-xl font-medium'>
             <Link to='contact' smooth={true} duration={500} onClick={handleMenu}>
-              Contact Us
+              Socials
             </Link>
           </li>
         </ul>

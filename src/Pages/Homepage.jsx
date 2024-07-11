@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 const Homepage = () => {
   return (
@@ -25,7 +26,10 @@ const Homepage = () => {
           Dream,... Study,... Fly
         </p>
         <button className="text-white font-bold hover:text-white border-2 border-white hover:bg-[#ff822e] hover:border-white px-6 py-2 mt-16 flex items-center">
+          <Link to='services' smooth={true}
+              duration={500}>
           Learn More
+          </Link>
         </button>
       </div>
     </div>

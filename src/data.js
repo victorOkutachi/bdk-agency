@@ -14,7 +14,7 @@ export const listItems = [
 
     {
         id: 3,
-        desc: "Contact Us",
+        desc: "Socials",
         path: 'contact'
     },
 

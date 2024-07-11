@@ -26,11 +26,7 @@ const Footer = () => {
             <a href='https://instagram.com/cancer_naija?igshid=MzRIODBiNWFIZA==' target={'_blank'} >
               <RiInstagramFill className='mx-3 hover:scale-125 duration-300' size={35}/>
               </a>
-            <ul className='items-center flex text-[10px] space-x-2 my-4'>
-              <li className='text-[12px] font-medium'>Contact Us</li>
-              <li className='text-[12px] font-medium'>Home</li>
-            </ul>
-            <span className='flex items-center text-[12px] md:text-xs font-medium mb-2'><AiOutlineCopyright/>2024 by Blessed Don-Kate</span>
+            <span className='flex items-center text-[12px] mt-5 md:text-xs font-medium mb-3'><AiOutlineCopyright/>2024 by Blessed Don-Kate</span>
         </div>
     </div>
   )
