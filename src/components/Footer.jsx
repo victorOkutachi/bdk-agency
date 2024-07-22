@@ -23,7 +23,7 @@ const Footer = () => {
             
                 
             </div>
-            <a href='https://instagram.com/cancer_naija?igshid=MzRIODBiNWFIZA==' target={'_blank'} >
+            <a href='https://www.instagram.com/bdk_travelseducation?igsh=dDhudHV4bnZvdmNo&utm_source=qr' target={'_blank'} >
               <RiInstagramFill className='mx-3 hover:scale-125 duration-300' size={35}/>
               </a>
             <span className='flex items-center text-[12px] mt-5 md:text-xs font-medium mb-3'><AiOutlineCopyright/>2024 by Blessed Don-Kate</span>

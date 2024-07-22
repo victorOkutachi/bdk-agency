@@ -19,8 +19,12 @@ const EgyptVisaGrid = () => {
     <section id="services" className="py-12 bg-gray-100">
       <div className="container mx-auto px-4">
 
-
+        <div className='flex flex-col justify-center items-center'>
         <h2 className="text-3xl font-bold text-center mb-8 text-[#008024]">Services</h2>
+        <div className='absolute h-[3px] bg-[#008024] w-[100px] mt-6'></div>
+        </div>
+        
+        
         <p className="my-8 mx-auto text-center px-4 lg:px-8 lg:text-lg">Our Services include but are not limited to the following:</p>
 
 

@@ -28,11 +28,15 @@ const Services = () => {
 
   
   return (
-    <section className="py-12 bg-gray-100">
+    <section className="py-16 bg-gray-100">
       <div className="container mx-auto px-4">
-        <h2 className="text-2xl pb-6 font-bold text-center text-[#008024]">Study Visa</h2>
+          <div className='flex flex-col justify-center items-center py-4'>
+            <h2 className="text-2xl pb-6 font-bold text-center text-[#008024]">Study Visa</h2>
+            <div className='absolute h-[3px] bg-[#008024] w-[120px] mt-6'></div>
+          </div>
+        
         <p className=' font-normal text-center'>Admission is ongoing for january 2025 intake to the following countries: Poland, Malta, United Kingdom, USA, Canada. </p>
-        <p className=' font-normal text-center'>Our packages cover </p>
+        <p className=' font-normal text-center'>Our packages cover: </p>
         <div className="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((service, index) => (
             <div key={index} className="bg-white p-6 rounded shadow-md items-center hover:cursor-pointer justify-center hover:bg-[#ff822e] hover:text-white " onClick={() => handleWhatsAppClick(false)}>
