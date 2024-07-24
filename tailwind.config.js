@@ -5,6 +5,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+
+      fontFamily: {
+        Lato: ['Lato', 'sans-serif'],
+        
+
+      },
+
       colors: {
         overlay: 'rgba(0, 0, 0, 0.3)', // Adjust opacity as needed
       },

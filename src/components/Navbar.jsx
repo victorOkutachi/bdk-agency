@@ -40,7 +40,7 @@ const Navbar = () => {
       <div
         className={
           menu
-            ? 'absolute left-0 top-0 w-full h-screen flex flex-col items-center justify-center bg-white ease-in-out duration-500 text-[#ff822e]'
+            ? 'absolute left-0 top-0 w-full h-screen flex flex-col items-center justify-center bg-white ease-in-out duration-500 text-[#008024]'
             : 'fixed left-[-100%]'
         }
       >
